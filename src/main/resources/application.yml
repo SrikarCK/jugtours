@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          okta:
+            client-id: 0oajxny8v7Hzkhaws356
+            client-secret: IGhJG5_Bq-PiYP7VwtuMAT1wb-G-JzqX7Q4iNsfU
+            scope: openid, email, profile
+        provider:
+          okta:
+            issuer-uri: https://dev-126098.okta.com/oauth2/default
